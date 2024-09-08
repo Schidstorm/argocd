@@ -1,0 +1,9 @@
+apiVersion: v1
+name: minecraft
+version: 1.0.0
+
+dependencies:
+  - name: minecraft
+    version: 4.23.0
+    repository: https://itzg.github.io/minecraft-server-charts/
+    condition: 'minecraft.enabled'

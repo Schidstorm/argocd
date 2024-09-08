@@ -1,0 +1,5 @@
+releases:
+  - name: "{{ .Values.app }}"
+    chart: "./chart"
+    version: ">0.0.1"
+    namespace: "{{ .Values.app }}"
