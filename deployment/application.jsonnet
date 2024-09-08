@@ -24,7 +24,7 @@ std.manifestYamlDoc({
       },
       "project": "default",
       "source": {
-        "path": app,
+        "path": "apps/" + app,
         "repoURL": "https://github.com/schidstorm/argocd/",
         "targetRevision": "main",
         "helm": {
