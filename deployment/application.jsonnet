@@ -28,7 +28,7 @@ std.manifestYamlDoc({
         "repoURL": "https://github.com/schidstorm/argocd/",
         "targetRevision": "main",
         "helm": {
-          "releaseName": "release.name",
+          "releaseName": "minecraft",
           "values": std.manifestYamlDoc(values)
         }
       },
